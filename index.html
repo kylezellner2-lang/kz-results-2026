@@ -241,7 +241,6 @@
       <div>
         <div class="eyebrow">Results · 1win</div>
         <h1><span id="heroMonths">—</span> months.<br><em id="heroViews">—</em> views.</h1>
-        <p class="sub" id="heroSub">—</p>
         <div class="cta" style="margin-top:26px"><a class="btn p" href="#s1">See every post &nbsp;→</a></div>
       </div>
       <div class="shot" id="heroShot"></div>
@@ -948,7 +947,6 @@ const cap1 = s => s.charAt(0).toUpperCase() + s.slice(1);
 /* ------------------------------------------------------------------- hero */
 set("heroMonths", cap1(words[DATA.months.length] || String(DATA.months.length)));
 set("heroViews", n(DATA.total));
-set("heroSub", `Every post I made for 1win, a casino and sportsbook brand, since June 2026. Instagram and Facebook combined.`);
 if (heroCover) document.getElementById("heroShot").style.backgroundImage = `url('${heroCover}')`;
 
 
